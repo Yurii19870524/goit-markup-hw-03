@@ -1,0 +1,358 @@
+:root {
+    --color-interactive: #9747FF;
+    --color-item: #2E2F42;
+    --color-main: #FFFFFF;
+    --color-information: #434455;
+    --color-active: #4D5AE5;
+
+    --font-main: 'Roboto', sans-serif;
+    --font-secondary: 'Raleway' sans-serif;
+
+}
+
+
+body {
+    font-family: var(--font-main);
+    background: var(--color-main);
+    font-size: 16px;
+    color: var(--color-item);
+
+
+
+
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*================Header==================*/
+
+
+.page-header {
+    background: var(--color-main);
+}
+
+
+
+.logo>span {
+    color: var(--color-active);
+}
+
+
+.logo {
+    font-family: var(--font-secondary);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--color-item);
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1158px;
+    margin-top: 5px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-web {
+    margin-right: 77px;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-list,
+.list {
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: var(--color-item);
+
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-list .nav-item:last-child {
+    margin-right: 0px;
+}
+
+.contact-main {
+    display: flex;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.contact-link {
+    margin-right: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-information);
+}
+
+.nav-link:hover,
+.logo-box:hover,
+.logo:hover,
+.contact-link:hover {
+    color: var(--color-interactive);
+}
+
+/*================Main Content================ */
+.container-hero {
+    min-width: 1440px;
+    height: 603px;
+    text-align: center;
+    background: var(--color-item);
+    /* outline: 1px solid yellow; */
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+    color: var(--color-main);
+
+    margin: 0;
+    padding-top: 192px;
+}
+
+.button {
+    margin-top: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    align-items: center;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    color: var(--color-main);
+    width: 170px;
+    height: 51px;
+    left: 635px;
+    top: 432px;
+
+    background: var(--color-active);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.button:hover {
+    background: var(--color-active);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
+}
+
+.button:active {
+    background: #404BBF;
+}
+
+
+/* Privileges */
+
+
+.test-container {
+    right: 224px;
+    width: 1128px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid red;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    outline: 1px solid red;
+    background-color: tomato;
+}
+
+.flex-element {
+    outline: 1px solid yellowgreen;
+    width: 264px;
+    margin: 0;
+    margin-right: 24px;
+    background-color: teal;
+}
+
+.flex-element:nth-child(4n) {
+    margin: 0;
+}
+
+/* 
+.feoture-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+
+    width: 1128px;
+    height: 224px;
+
+    /* align-items: center; */
+
+/* outline: 1px solid red; */
+}
+
+/* .flex-element:nth-child(4n) {
+    margin-right: 0;
+} */
+
+/* .flex-element {
+
+    width: 64px;
+    margin: 0;
+    margin-right: 24px;
+    outline: 1px solid red;
+} */
+
+
+
+.team-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-item);
+
+}
+
+.team-position,
+.service-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-information);
+
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-item);
+
+}
+
+
+
+
+
+/*==================== Footer ==================*/
+
+
+
+.footer {
+    background: var(--color-item);
+    position: absolute;
+    width: 1440px;
+    height: 310px;
+    left: 0px;
+    /* top: 2283px; */
+}
+
+.logo-box {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--color-item);
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--color-main);
+}
+
+.logo-box>span {
+    color: var(--color-active);
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+
+}
+
+/*================PORTFOLIO==================*/
+
+
+.motol-btn {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--color-active);
+}
+
+.motol-btn:hover,
+.motol-btn:focus {
+    background-color: var(--color-active);
+    color: var(--color-main);
+}
+
+.project-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-item);
+}
+
+.project-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-information);
+}
