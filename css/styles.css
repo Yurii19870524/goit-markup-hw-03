@@ -16,10 +16,6 @@ body {
     background: var(--color-main);
     font-size: 16px;
     color: var(--color-item);
-
-
-
-
 }
 
 h1,
@@ -56,12 +52,9 @@ img {
     background: var(--color-main);
 }
 
-
-
 .logo>span {
     color: var(--color-active);
 }
-
 
 .logo {
     font-family: var(--font-secondary);
@@ -157,7 +150,6 @@ img {
     height: 603px;
     text-align: center;
     background: var(--color-item);
-    /* outline: 1px solid yellow; */
 }
 
 .hero-title {
@@ -217,7 +209,6 @@ img {
 
 .flex-container {
     display: flex;
-    /* padding: 0; */
     margin: 0;
 }
 
@@ -272,7 +263,7 @@ img {
 }
 
 .about-item {
-    background: #FFFFFF;
+    background: var(--color-main);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px
 }
@@ -297,8 +288,6 @@ img {
     margin-right: auto;
 
 }
-
-
 
 .team-name {
     font-weight: 600;
@@ -329,13 +318,7 @@ img {
 
 }
 
-
-
-
-
 /*==================== Footer ==================*/
-
-
 
 .footer {
     margin-left: auto;
@@ -353,8 +336,6 @@ img {
     padding-bottom: 100px;
     padding-left: 156px;
     padding-right: 1020px;
-
-
 
 }
 
@@ -408,7 +389,6 @@ img {
     margin: 0;
     gap: 24px;
 
-    /* outline: 1px solid red; */
 }
 
 .motol-btn {
