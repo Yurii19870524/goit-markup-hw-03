@@ -1,104 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
+    <title>WebStudio</title>
+
+     <!--fon-family-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--nornalize-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--base styles-->
+    
+    <link rel="stylesheet" href="./css/styles.css">
+
+ 
                    
 </head>
 
 <body>
     <!--Header-->
     <header class="page-header">
-        <nav class="container main-nav">
-
-               <div class="logo-web"> <a class="logo span link" href="/"><span>Web</span>Studio</a></div>
+        <div class="container">
+            <nav class=" main-nav">
+                <div class="logo-web"> <a class="logo span link" href="/"><span>Web</span>Studio</a></div>
              
-               <ul class="nav-list">
-                   <li class="nav-item">
-                       <a class="nav-link link" href="./index.html">Studio</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link link" href="./portfolio.html">Portfolio</a>
-                     </li>
+                <ul class="nav-list list">
                     <li class="nav-item">
-                       <a class="nav-link link" href="">Contacts</a>
+                        <a class="nav-link link" href="./index.html">Studio</a>
                     </li>
-                </ul>
-
+                    <li class="nav-item">
+                       <a class="nav-link link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="">Contacts</a>
+                    </li>
+                </ul>   
+            </nav> 
                 <ul class="list contact-main">
-                     <li>
+                    <li>
                         <a  class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                     <li>
                         <a  class="contact-link link" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
                      </li>
-                </ul>       
-        </nav>
+                </ul>     
+        </div>    
     </header>
 
     <!--Maim Content-->
     <main>
-        <section class="container-hero">
-            <h1 class="hero-title">Effective Solutions <br>for Your Business</h1>
-            <button class="button" type="button">Order Service</button>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Effective Solutions for Your Business</h1>
+                <button class="button" type="button">Order Service</button>
+            </div>
+           
         </section>
 
-        <section> 
-            <div class="test-container">
+        <section class="service"> 
+            <div class="container">
                  <h2 class="visually-hidden" >Privileges</h2>
                 <ul class="flex-container list feoture-list">
                     <li class=" service-list">
-                        <div class="flex-element">
-                            <h3 class="service-title">Strategy</h3>
-                            <p class="flex-text service-text">
+                        <h3 class="service-title">Strategy</h3>
+                            <p class="flex-text ">
                                Our goal is to identify the business problem to walk away with the perfect
                                 and creative solution.
-                            </p>
-                        </div>
-                            
+                            </p> 
                     </li> 
                     <li class="service-list">
-                        <div class="flex-element">
-                            <h3 class="service-title">Punctuality</h3>
-                            <p class="flex-text service-text">
+                        <h3 class="service-title">Punctuality</h3>
+                            <p class="flex-text">
                              Bring the key message to the brand's audience for the best price within the
                              shortest possible time.
                             </p>
-                        </div>
-                          
-                    </li>
-                     <li class="service-list">
-                        <div class="flex-element">
-                            <h3 class="service-title">Diligence</h3>
-                            <p class="flex-text service-text">
-                               Research and confirm brands that present the strongest  digital growth
-                               opportunities and minimize risk.
-                            </p>
-                        </div>
-                            
                     </li>
                     <li class="service-list">
-                        <div class="flex-element">
-                            <h3 class="service-title">Technologies</h3>
-                            <p class="flex-text service-text">
+                       <h3 class="service-title">Diligence</h3>
+                            <p class="flex-text">
+                               Research and confirm brands that present the strongest  digital growth
+                               opportunities and minimize risk.
+                            </p>    
+                    </li>
+                    <li class="service-list">   
+                        <h3 class="service-title">Technologies</h3>
+                            <p class="flex-text">
                                 Design practice focused on digital experiences. We bring forth a deep
                                 passion for problem-solving.
                             </p>
-                        </div>
-                           
                     </li>
                 </ul>
-            </div>  
-           
+            </div> 
         </section>
 
         <section class="gallery-section">
@@ -194,9 +195,9 @@
                 <p class="footer-text">
                 Increase the flow of customers and sales for your business with digital marketing &
                 growth solutions.
-                </p>
+                 </p>
             </div>
-        </div>
+         </div>
           
         
     </footer>
